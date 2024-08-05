@@ -12,8 +12,3 @@ input{
     font-family: 'Roboto', sans-serif;
 }
 
-input::placeholder {
-    opacity: 0.3;
-    color: #222; 
-    font-family: 'Roboto', sans-serif;  
-}
