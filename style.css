@@ -1,0 +1,19 @@
+body{
+    background-color: rgb(21, 21, 21);
+    color: whitesmoke;
+}
+
+button{
+    font-size: larger;
+    font-family: 'Roboto', sans-serif;
+}
+
+input{
+    font-family: 'Roboto', sans-serif;
+}
+
+input::placeholder {
+    opacity: 0.3;
+    color: #222; 
+    font-family: 'Roboto', sans-serif;  
+}

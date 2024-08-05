@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Calculator</title>
+</head>
+
+<body>
+    <div class="main flex  md:mx-[35rem] bg-black rounded-[3rem]">
+
+        
+        <div class="container flex flex-col justify-center h-screen items-center">
+
+            <div class="row">
+                <input class="text-right w-96 bg-black text-4xl p-4 mb-2 mt-4" type="text" placeholder="TechTabish">
+            </div>
+            <div class="row flex text-xl">
+                <button class="button bg-neutral-400 rounded-full m-2 px-6 py-6 text-black active:bg-neutral-600">AC</button>
+                <button class="button bg-neutral-400 rounded-full m-2 px-8 py-6 text-black active:bg-neutral-600">X</button>
+                <button class="button bg-neutral-400 rounded-full m-2 px-8 py-6 text-black active:bg-neutral-600">%</button>
+                <button class="button bg-amber-500 text-white rounded-full m-2 px-8 py-6 text-black active:bg-amber-700">/</button>  
+            </div>
+            <div class="row flex text-xl">
+                <button class="button bg-neutral-600 text-white rounded-full m-2 px-8 py-6 text-black active:bg-neutral-800">7</button>
+                <button class="button bg-neutral-600 text-white rounded-full m-2 px-8 py-6 text-black active:bg-neutral-800">8</button>
+                <button class="button bg-neutral-600 text-white rounded-full m-2 px-8 py-6 text-black active:bg-neutral-800">9</button>
+                <button class="button bg-amber-500 text-white rounded-full m-2 px-8 py-6 text-black active:bg-amber-700">*</button>  
+            </div>
+            <div class="row flex text-xl">
+                <button class="button bg-neutral-600 text-white rounded-full m-2 px-8 py-6 text-black active:bg-neutral-800">4</button>
+                <button class="button bg-neutral-600 text-white rounded-full m-2 px-8 py-6 text-black active:bg-neutral-800">5</button>
+                <button class="button bg-neutral-600 text-white rounded-full m-2 px-8 py-6 text-black active:bg-neutral-800">6</button>
+                <button class="button bg-amber-500 text-white rounded-full m-2 px-8 py-6 text-black active:bg-amber-700">-</button>  
+            </div>
+            <div class="row flex text-xl">
+                <button class="button bg-neutral-600 text-white rounded-full m-2 px-8 py-6 text-black active:bg-neutral-800">1</button>
+                <button class="button bg-neutral-600 text-white rounded-full m-2 px-8 py-6 text-black active:bg-neutral-800">2</button>
+                <button class="button bg-neutral-600 text-white rounded-full m-2 px-8 py-6 text-black active:bg-neutral-800">3</button>
+                <button class="button bg-amber-500 text-white rounded-full m-2 px-8 py-6 text-black active:bg-amber-700">+</button>  
+            </div>
+            <div class="row flex text-xl">
+                <button class="button bg-neutral-600 text-white rounded-full my-2 ms-2 me-4 px-[4.9rem] py-[1rem] text-black active:bg-neutral-800">0</button>
+                <button class="button bg-neutral-600 text-white rounded-full my-2 me-2 px-9 py-[1rem] text-black active:bg-neutral-800">.</button>
+                <button class="button bg-amber-500 text-white rounded-full m-2 px-7 py-[1rem] text-black active:bg-amber-700 text-4xl">=</button>
+                  
+            </div>
+            
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
