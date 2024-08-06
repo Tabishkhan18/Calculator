@@ -3,6 +3,11 @@ let isResult = false; // Track if the result has been evaluated
 let buttons = document.querySelectorAll('.button');
 Array.from(buttons).forEach((button)=>{
   button.addEventListener('click', (e)=>{
+    // Add vibration feedback
+    if (navigator.vibrate) {
+      navigator.vibrate([25]); // Vibrate for 50 milliseconds
+    }
+    
     if(e.target.innerHTML == '='){
         try {
             string = eval(string).toString();
