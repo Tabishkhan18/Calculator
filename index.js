@@ -17,7 +17,7 @@ Array.from(buttons).forEach((button)=>{
       string = ""
       document.querySelector('input').value = string;
     }
-    else if(e.target.innerHTML == 'X'){
+    else if(e.target.innerHTML == 'DEL'){
         string = string.slice(0, -1);
         document.querySelector('input').value = string;
     }
